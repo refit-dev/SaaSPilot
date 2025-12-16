@@ -16,13 +16,33 @@ SaaSPilot is a **full-stack SaaS boilerplate** for Next.js - crafted with great 
 ## 🎛 Tech Stack 
 Reactjs, Nextjs, Typescript, Tailwind, Shadcn, Stripe, Nextauth, Prisma, MongoDB, SendGrid, Resend
 
-## 📜 Docs 
+## 📜 Docs
 
-The Documentation is available here: 
+The Documentation is available here:
 <br />
 https://cipherslab.gitbook.io/saas-pilot-docs
 
-If  there are any questions or something is not covered in the docs, feel free to open a github issue on this repo. 
+### 🤖 AI Coding Agent Ready
+
+SaaSPilot is now **AI-coding-agent optimized** with comprehensive documentation designed specifically for AI assistants like Claude, Cursor, and GitHub Copilot:
+
+- **[CLAUDE.md](CLAUDE.md)** - Quick start guide for AI agents
+- **[/docs](docs/)** - Comprehensive technical documentation
+  - [ai-instructions.md](docs/ai-instructions.md) - Core instructions and conventions
+  - [architecture.md](docs/architecture.md) - System architecture
+  - [coding-patterns.md](docs/coding-patterns.md) - Standard patterns
+  - [database-schema.md](docs/database-schema.md) - Complete schema reference
+  - [component-map.md](docs/component-map.md) - Component relationships
+  - [api-documentation.md](docs/api-documentation.md) - API reference
+  - [troubleshooting.md](docs/troubleshooting.md) - Common issues
+- **[/prompts](prompts/)** - Ready-to-use task templates for AI agents
+  - Add new features
+  - Create API endpoints
+  - Modify database schemas
+
+**AI agents can now understand and modify the codebase with minimal guidance!**
+
+If there are any questions or something is not covered in the docs, feel free to open a github issue on this repo. 
 
 ##  💻 Demo
 The Demo (Pro version) can be found here: 
