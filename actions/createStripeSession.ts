@@ -34,7 +34,7 @@ export const createStripeSession :any = async (userId: string | undefined, planI
         customer: dbUser.stripeCustomerId,
         success_url: billingUrl,
         cancel_url: billingUrl,
-        payment_method_types: ['card'],//'paypal'
+        allowed_payment_method_types: ['card'],//'paypal'
         mode: 'payment',
         billing_address_collection: 'auto',
         line_items: [
@@ -56,7 +56,7 @@ export const createStripeSession :any = async (userId: string | undefined, planI
       await stripe.checkout.sessions.create({        
         success_url: billingUrl,
         cancel_url: billingUrl,
-        payment_method_types: ['card'],//'paypal'
+        allowed_payment_method_types: ['card'],//'paypal'
         mode: 'payment',
         billing_address_collection: 'auto',
         line_items: [
